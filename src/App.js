@@ -1,23 +1,22 @@
-import logo from './logo.svg';
 import './App.css';
+import Card from './components/card'
+import './styles/output.css'
+import Image from './components/images/avatar-jessica.jpeg'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="font-inter flex justify-center items-center h-screen font-medium bg-off-black">
+      <Card 
+      image={Image} 
+      name="Jessica Randall" 
+      location="London, United Kingdom" 
+      description="Front-end developer and avid reader." 
+      github="https://github.com/Kaoutherbo" 
+      frontendMentor="https://www.frontendmentor.io/profile/Kaoutherbo" 
+      linkdin="https://www.linkedin.com/in/boutheldja-kaouther/" 
+      x="https://twitter.com/Kaou1Kaouther" 
+      insta="https://www.instagram.com/ka_outher2005?igsh=MXZqMWplenJza3d6dw=="
+      />
     </div>
   );
 }
