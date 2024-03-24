@@ -1,5 +1,5 @@
 import './App.css';
-import Card from './components/card'
+import Card from './components/UI/card'
 import './styles/output.css'
 import Image from './components/images/avatar-jessica.jpeg'
 

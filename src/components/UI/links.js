@@ -1,5 +1,5 @@
 import React from 'react'
-
+import '../../styles/output.css'
 export default function links({github, frontendMentor, linkdin, x, insta}) {
   return (
     <div  className="">

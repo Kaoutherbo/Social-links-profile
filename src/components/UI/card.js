@@ -1,5 +1,5 @@
 import React from 'react'
-import '../styles/output.css'
+import '../../styles/output.css'
 import Links from './links'
 
 export default function card({image, name, location, description, github, frontendMentor, linkdin, x, insta}) {
