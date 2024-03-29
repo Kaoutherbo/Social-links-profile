@@ -1,13 +1,14 @@
 import React from 'react'
 import '../../styles/output.css'
+import CustomBtn from './CustomBtn'
 export default function links({github, frontendMentor, linkdin, x, insta}) {
   return (
     <div  className="">
-        <button className='text-gray-300 rounded-lg h-11 w-full bg-grey hover:bg-primary hover:text-grey duration-300 mb-4'><a href={github}>Github</a></button>
-        <button className='text-gray-300 rounded-lg h-11 w-full bg-grey hover:bg-primary  hover:text-grey duration-300 mb-4'><a href={frontendMentor}>Frontend Mentor</a></button>
-        <button className='text-gray-300 rounded-lg h-11 w-full bg-grey hover:bg-primary  hover:text-grey duration-300 mb-4'><a href={linkdin}>LinkedIn</a></button>
-        <button className='text-gray-300 rounded-lg h-11 w-full bg-grey hover:bg-primary  hover:text-grey duration-300 mb-4'><a href={x}>X</a></button>
-        <button className='text-gray-300 rounded-lg h-11 w-full bg-grey hover:bg-primary  hover:text-grey duration-300 mb-4'><a href={insta}>Instagram</a></button>
+        <CustomBtn link={github} linkName="Github" />
+        <CustomBtn link={frontendMentor} linkName="Frontend Mentor" />
+        <CustomBtn link={linkdin} linkName="LinkedIn" />
+        <CustomBtn link={x} linkName="X" />
+        <CustomBtn link={insta} linkName="Instagram" />
     </div>
   )
 }
